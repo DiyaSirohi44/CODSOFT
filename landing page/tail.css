@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+  }
+  nav {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style: none;
+  }
+  ul li a {
+    text-decoration: none ;
+    color: #000;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+  }
+  ul li a:hover {
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .button button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    transition: 300ms ease-in-out;
+  }
+  .button button:hover {
+    background-color: transparent;
+    outline: 2px solid black;
+    color: black;
+    cursor: pointer;
+  }
