@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(250, 250, 253) 0%, rgb(192, 215, 249) 35%, rgb(156, 161, 244) 100%);
+  }
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "jost", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+nav {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  background: linear-gradient(45deg, rgb(7, 7, 54), rgb(112, 130, 233));
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 500px;
+}
+nav li a {
+  text-decoration: none;
+  color: rgb(253, 251, 251);
+  font-size: 1.1rem;
+}
+nav .icon i {
+  font-size: 1.6rem;
+}
+
+#header {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+#header .social {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#header .social li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+#header .social li a {
+  color: rgb(4, 4, 4);
+}
+#header .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+#header .container .text-container {
+  width: 500px;
+}
+#header .container .text-container .text h1 {
+  font-size: 3.4rem;
+  font-weight: 500;
+}
+#header .container .text-container .text h3 {
+  font-size: 1.3rem;
+  color: rgb(15, 15, 15);
+  font-weight: 400;
+}
+#header .container .text-container .text p {
+  color: rgb(155, 153, 153);
+}
+#header .img{
+  padding-left: 50px;
+  margin: auto;
+  float: right;
+  display: flex;
+  border-radius: 50%;
+
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  
+}
+
+.container p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service-list div {
+    flex-basis: calc(33.333% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-list div:hover {
+    transform: scale(1.05);
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.work {
+    flex-basis: calc(33.333% - 20px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.work img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.work .layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #fff;
+    transition: height 0.3s;
+}
+
+.work:hover {
+    transform: scale(1.05);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #3D7B92;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2e5d6e;
+}
+
+footer {
+    background-color: #3D7B92;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.container button {
+    background-color: #3D7B92 ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .img{
+    border-radius: 50%;
+  }
